@@ -19,7 +19,7 @@ if (num > 0){
 We will see the differences together later on. 
 Use the first one!!
 */
-function doSomething(string){
+function doSomething(string){  // *Preferred*
     //..code goes here
 }
     
@@ -32,4 +32,16 @@ var doSomething = function doSomething(string){
 }
 
 
-//This is a comment to write more stuff
+//Naming
+
+//Store student names
+var n;
+var name;
+var studentName; //camel case *Preferred*
+var student_name; //snake case
+
+var PI = 3.14; //use ALL UPPERCASE for constants
+var API_URL = "http:api.reddit.com"; //use snake case for constants
+
+//var 1stName; // Cannot start with number
+
